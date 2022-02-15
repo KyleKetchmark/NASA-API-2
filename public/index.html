@@ -22,23 +22,29 @@
             </header>
             <!-- Search Form Div-->
             <div id="search-form">
-                <h3>NASA's Astronomy Picture of the Day</h3>
+                <h3 id="landingtitle">NASA's Astronomy Picture of the Day</h3>
                 <br>
                 <form>
-                    <p>
-                        <button id="submit">Retrieve Photo</button>
-                    </p>
+                    <h5>Select a date to retrieve the APOD that day!</h5>
+                    <span id="down">&#10597;</span>
+                    <input type="date" id="get-date" name="get-date">
+                    <br>
+                    <button id="submit">Retrieve Photo</button>
                 </form>
             </div>
         </div>
         <!-- Return Section-->
         <div id="card-wrapper">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <div id="image">
                 </div>
                 <div class="card-body">
-                    <h5 id="title" class="card-title"></h5>
-                    <p id="summary" class="card-text"></p>
+                    <div id="title" class="card-title">
+
+                    </div>
+                    <div id="summary" class="card-text">
+
+                    </div>
                 </div>
             </div>
         </div>
